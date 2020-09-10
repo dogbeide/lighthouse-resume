@@ -1,3 +1,7 @@
+body {
+  font-family: 'Syne', sans-serif;
+}
+
 header {
   background-color: blue;
 }
@@ -10,4 +14,28 @@ header {
 nav a {
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.myname {
+  font-size: 2em;
+  font-weight: bold;
+}
+.myoccupation {
+  font-size: 1em;
+  font-weight: bold
+}
+
+#socials {
+  font-size: 0.8em;
+  color: #757575
 }
