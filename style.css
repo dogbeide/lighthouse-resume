@@ -6,6 +6,12 @@ header {
   background-color: blue;
 }
 
+.container {
+  margin: 0 auto;
+  width: 700px;
+  padding: 40px 0;
+}
+
 .cls {
   background-color: blue;
   color: white;
