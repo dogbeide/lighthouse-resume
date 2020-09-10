@@ -1,9 +1,14 @@
 body {
   font-family: 'Syne', sans-serif;
+  margin: 0;
 }
 
 header {
   background-color: blue;
+}
+
+h2 {
+  margin-top: 0;
 }
 
 .container {
