@@ -3,10 +3,6 @@ body {
   margin: 0;
 }
 
-header {
-  background-color: blue;
-}
-
 h2 {
   margin-top: 0;
 }
@@ -22,7 +18,7 @@ h2 {
   color: white;
 }
 
-nav a {
+.links a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -48,5 +44,5 @@ nav a {
 
 #socials {
   font-size: 0.8em;
-  color: #757575
+  /* color: #757575 */
 }
