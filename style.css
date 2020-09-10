@@ -7,6 +7,21 @@ h2 {
   margin-top: 0;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-link {
+  margin-left: 10px;
+}
+
+.caps-white * {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .container {
   margin: 0 auto;
   width: 700px;
@@ -16,12 +31,6 @@ h2 {
 .cls {
   background-color: blue;
   color: white;
-}
-
-.caps-white * {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 .title {
