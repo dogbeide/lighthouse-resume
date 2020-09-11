@@ -20,17 +20,11 @@ h2 {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  margin-left: 10px;
+  margin-right: 10px;
   transition: color 125ms;
 }
 .menu-link:hover {
   color: skyblue;
-}
-
-.caps-white * {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 .container {
@@ -90,7 +84,7 @@ meter::-webkit-meter-bar {
   border-radius: 4px;
 }
 meter::-webkit-meter-optimum-value {
-  background: #55cca4;
+  background: #55ccaa;
 }
 
 
