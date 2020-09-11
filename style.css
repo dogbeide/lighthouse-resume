@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+section {
+  padding: 8px;
+}
+
 h2 {
   margin-top: 0;
 }
@@ -51,6 +55,27 @@ h2 {
   font-size: 1em;
   font-weight: bold
 }
+
+.skills {
+  width: 70%;
+}
+.skill {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+.skill > * {
+  margin-right: 10px;
+}
+.skill > *:nth-child(3) {
+  flex-grow: 2;
+}
+
+.meter {
+  flex-grow: 4;
+}
+
 
 #experience{
   display: flex;
